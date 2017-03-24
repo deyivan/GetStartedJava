@@ -1,0 +1,7 @@
+---
+applications:
+ - name: MyFirstJavaCloudFoundryApp
+   random-route: true
+   path: target/GetStartedJava.war
+   memory: 512M
+   instances: 1
